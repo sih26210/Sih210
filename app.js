@@ -1,20 +1,20 @@
-import { renderHeader } from "./components/header.js";
-import { renderFooter } from "./components/footer.js";
+import { renderHeader } from "./header.js";
+import { renderFooter } from "./footer.js";
 import { registerRoute, setNotFound, initRouter } from "./router.js";
 
-import { renderHome } from "./pages/home.js";
-import { renderAbout } from "./pages/about.js";
-import { renderOperations } from "./pages/operations.js";
-import { renderReportsHub, renderReportPlaceholder } from "./pages/reports.js";
-import { renderFeedback } from "./pages/feedback.js";
-import { renderFaq } from "./pages/faq.js";
-import { renderContact } from "./pages/contact.js";
-import { renderCitizenLogin } from "./pages/citizen-login.js";
-import { renderDepartmentLogin } from "./pages/department-login.js";
-import { renderComplaint } from "./pages/complaint.js";
-import { renderConvertCard } from "./pages/convert-card.js";
-import { renderGenericInfoPage } from "./pages/generic-info.js";
-import { renderNotFound } from "./pages/not-found.js";
+import { renderHome } from "./home.js";
+import { renderAbout } from "./about.js";
+import { renderOperations } from "./operations.js";
+import { renderReportsHub, renderReportPlaceholder } from "./reports.js";
+import { renderFeedback } from "./feedback.js";
+import { renderFaq } from "./faq.js";
+import { renderContact } from "./contact.js";
+import { renderCitizenLogin } from "./citizen-login.js";
+import { renderDepartmentLogin } from "./department-login.js";
+import { renderComplaint } from "./complaint.js";
+import { renderConvertCard } from "./convert-card.js";
+import { renderGenericInfoPage } from "./generic-info.js";
+import { renderNotFound } from "./not-found.js";
 
 renderHeader();
 renderFooter();
